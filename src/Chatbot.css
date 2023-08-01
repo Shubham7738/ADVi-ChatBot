@@ -62,6 +62,8 @@
 
 .chat-messages {
   padding: 10px;
+  max-height: 450px; /* Set the maximum height for the chat window */
+  overflow-y: auto; /* Enable vertical scrolling when the content overflows */
 }
 
 /* Input box and send button styles */
